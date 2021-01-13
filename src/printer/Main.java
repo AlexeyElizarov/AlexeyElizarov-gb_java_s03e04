@@ -1,6 +1,10 @@
+package printer;
+
 public class Main {
     private final Object mon = new Object();
     private volatile char currentLetter = 'A';
+
+    // test
 
     public static void main(String[] args) {
         Main w = new Main();
