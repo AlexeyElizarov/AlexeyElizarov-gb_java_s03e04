@@ -1,3 +1,5 @@
+package printer;
+
 public class Main {
     private final Object mon = new Object();
     private volatile char currentLetter = 'A';
